@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <servlet>
+    <servlet-name>Start</servlet-name>
+    <servlet-class>InventoryCustomer.Start</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Start</servlet-name>
+    <url-pattern>/start</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>Invent</servlet-name>
+    <servlet-class>Manage.InventoryManagement</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Invent</servlet-name>
+    <url-pattern>/inventory</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>ReadAll</servlet-name>
+    <servlet-class>Manage.InventoryManagement</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ReadAll</servlet-name>
+    <url-pattern>/readAll</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>Create</servlet-name>
+    <servlet-class>Manage.Create</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Create</servlet-name>
+    <url-pattern>/create</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>Execute</servlet-name>
+    <servlet-class>Manage.InventoryManagement</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Execute</servlet-name>
+    <url-pattern>/execute</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>Delete</servlet-name>
+    <servlet-class>Manage.Delete</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Delete</servlet-name>
+    <url-pattern>/delete</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>Update</servlet-name>
+    <servlet-class>Manage.Update</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Update</servlet-name>
+    <url-pattern>/update</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>read</servlet-name>
+    <servlet-class>Manage.InventoryManagement</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>read</servlet-name>
+    <url-pattern>/read</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
